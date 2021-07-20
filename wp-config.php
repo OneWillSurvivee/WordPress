@@ -37,6 +37,8 @@ define( 'DB_CHARSET', 'utf8' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+define('WP_NEWPORT_ZOHO_CRM_INVOICE_API_BASE_URL','plugin-newportinvoicepaymentlink.zohosandbox.com');
+
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -95,4 +97,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
 
-define('WP_NEWPORT_ZOHO_CRM_INVOICE_API_BASE_URL','plugin-newportinvoicepaymentlink.zohosandbox.com');
+
